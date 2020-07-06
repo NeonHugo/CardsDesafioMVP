@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="error" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3f33ce43-1e03-470a-a0ae-fca122c265ee" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="Pixel_2_API_29" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view />
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin Interface" />
+        <option value="Kotlin Class" />
+        <option value="Class" />
+        <option value="JUnit4 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1eErUdIAfLDCcDsD3MXQtbWSfk8" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/test/java/com/nm/pancardsdesafiomvp" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/java/com/nm/pancardsdesafiomvp/di" />
+    <property name="project.structure.last.edited" value="Dependencies" />
+    <property name="project.structure.proportion" value="0.17" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="com.nm.pancardsdesafiomvp.ui.cardList" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.nm.pancardsdesafiomvp.ui.cardTypeList" />
+      <recent name="com.nm.data.repository" />
+      <recent name="com.nm.data.mapper" />
+      <recent name="com.nm.domain.usecase" />
+    </key>
+    <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
+      <recent name="com.nm.pancardsdesafiomvp" />
+      <recent name="com.nm.data.services" />
+      <recent name="com.nm.data.repository" />
+      <recent name="com.nm.data.model" />
+      <recent name="com.nm.domain.repository" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.nm.commons.base" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/src/main/java/com/nm/pancardsdesafiomvp/di" />
+      <recent name="$PROJECT_DIR$/commons/src/main/java/com/nm/commons/net" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.CardTypeListPresenterTest">
+    <configuration name="CardTypeListPresenterTest.cardTypeListSuccessful" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
+      <module name="app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.nm.pancardsdesafiomvp.ui.cardTypeList.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.nm.pancardsdesafiomvp.ui.cardTypeList" />
+      <option name="MAIN_CLASS_NAME" value="com.nm.pancardsdesafiomvp.ui.cardTypeList.CardTypeListPresenterTest" />
+      <option name="METHOD_NAME" value="cardTypeListSuccessful" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="cardTypeList in app" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
+      <module name="app" />
+      <option name="TEST_OBJECT" value="directory" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <dir value="$PROJECT_DIR$/app/src/test/java/com/nm/pancardsdesafiomvp/ui/cardTypeList" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="pancardsdesafiomvp in app" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
+      <module name="app" />
+      <option name="TEST_OBJECT" value="directory" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <dir value="$PROJECT_DIR$/app/src/test/java/com/nm/pancardsdesafiomvp" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CardTypeListPresenterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.nm.pancardsdesafiomvp.ui.cardTypeList.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.nm.pancardsdesafiomvp.ui.cardTypeList" />
+      <option name="MAIN_CLASS_NAME" value="com.nm.pancardsdesafiomvp.ui.cardTypeList.CardTypeListPresenterTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CardTypeListPresenterTest.cardTypeListUnSuccessful" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.nm.pancardsdesafiomvp.ui.cardTypeList.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.nm.pancardsdesafiomvp.ui.cardTypeList" />
+      <option name="MAIN_CLASS_NAME" value="com.nm.pancardsdesafiomvp.ui.cardTypeList.CardTypeListPresenterTest" />
+      <option name="METHOD_NAME" value="cardTypeListUnSuccessful" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.CardTypeListPresenterTest" />
+        <item itemvalue="Android JUnit.cardTypeList in app" />
+        <item itemvalue="Android JUnit.pancardsdesafiomvp in app" />
+        <item itemvalue="JUnit.CardTypeListPresenterTest.cardTypeListUnSuccessful" />
+        <item itemvalue="Android JUnit.CardTypeListPresenterTest.cardTypeListSuccessful" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3f33ce43-1e03-470a-a0ae-fca122c265ee" name="Default Changelist" comment="" />
+      <created>1593897610431</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1593897610431</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="227" y="163" key="#PSD" timestamp="1593961039822">
+      <screen x="0" y="23" width="1440" height="829" />
+    </state>
+    <state x="227" y="163" key="#PSD/0.23.1440.829@0.23.1440.829" timestamp="1593961039822" />
+    <state x="481" y="147" key="#com.intellij.ide.util.MemberChooser" timestamp="1593990560753">
+      <screen x="0" y="23" width="1440" height="827" />
+    </state>
+    <state x="481" y="147" key="#com.intellij.ide.util.MemberChooser/0.23.1440.826@0.23.1440.826" timestamp="1593971021344" />
+    <state x="481" y="147" key="#com.intellij.ide.util.MemberChooser/0.23.1440.827@0.23.1440.827" timestamp="1593990560753" />
+    <state x="481" y="147" key="#com.intellij.ide.util.MemberChooser/0.23.1440.828@0.23.1440.828" timestamp="1593989876644" />
+    <state x="481" y="147" key="#com.intellij.ide.util.MemberChooser/0.23.1440.829@0.23.1440.829" timestamp="1593964969331" />
+    <state x="429" y="172" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1593981679622">
+      <screen x="0" y="23" width="1440" height="828" />
+    </state>
+    <state x="429" y="172" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.828@0.23.1440.828" timestamp="1593981679622" />
+    <state x="432" y="78" width="521" height="681" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog" timestamp="1593983808986">
+      <screen x="0" y="23" width="1440" height="828" />
+    </state>
+    <state x="432" y="78" width="521" height="681" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog/0.23.1440.828@0.23.1440.828" timestamp="1593983808986" />
+    <state width="487" height="466" key="DebuggerActiveHint" timestamp="1593977690734">
+      <screen x="0" y="23" width="1440" height="828" />
+    </state>
+    <state width="487" height="466" key="DebuggerActiveHint/0.23.1440.828@0.23.1440.828" timestamp="1593977690734" />
+    <state width="1340" height="405" key="GridCell.Tab.0.bottom" timestamp="1593995753840">
+      <screen x="0" y="23" width="1440" height="829" />
+    </state>
+    <state width="1340" height="255" key="GridCell.Tab.0.bottom/0.23.1440.826@0.23.1440.826" timestamp="1593969699012" />
+    <state width="1340" height="492" key="GridCell.Tab.0.bottom/0.23.1440.827@0.23.1440.827" timestamp="1593994004747" />
+    <state width="1340" height="180" key="GridCell.Tab.0.bottom/0.23.1440.828@0.23.1440.828" timestamp="1593994862628" />
+    <state width="1340" height="405" key="GridCell.Tab.0.bottom/0.23.1440.829@0.23.1440.829" timestamp="1593995753840" />
+    <state width="1340" height="405" key="GridCell.Tab.0.center" timestamp="1593995753839">
+      <screen x="0" y="23" width="1440" height="829" />
+    </state>
+    <state width="1340" height="255" key="GridCell.Tab.0.center/0.23.1440.826@0.23.1440.826" timestamp="1593969699011" />
+    <state width="1340" height="492" key="GridCell.Tab.0.center/0.23.1440.827@0.23.1440.827" timestamp="1593994004746" />
+    <state width="1340" height="180" key="GridCell.Tab.0.center/0.23.1440.828@0.23.1440.828" timestamp="1593994862628" />
+    <state width="1340" height="405" key="GridCell.Tab.0.center/0.23.1440.829@0.23.1440.829" timestamp="1593995753839" />
+    <state width="1340" height="405" key="GridCell.Tab.0.left" timestamp="1593995753839">
+      <screen x="0" y="23" width="1440" height="829" />
+    </state>
+    <state width="1340" height="255" key="GridCell.Tab.0.left/0.23.1440.826@0.23.1440.826" timestamp="1593969699011" />
+    <state width="1340" height="492" key="GridCell.Tab.0.left/0.23.1440.827@0.23.1440.827" timestamp="1593994004745" />
+    <state width="1340" height="180" key="GridCell.Tab.0.left/0.23.1440.828@0.23.1440.828" timestamp="1593994862627" />
+    <state width="1340" height="405" key="GridCell.Tab.0.left/0.23.1440.829@0.23.1440.829" timestamp="1593995753839" />
+    <state width="1340" height="405" key="GridCell.Tab.0.right" timestamp="1593995753840">
+      <screen x="0" y="23" width="1440" height="829" />
+    </state>
+    <state width="1340" height="255" key="GridCell.Tab.0.right/0.23.1440.826@0.23.1440.826" timestamp="1593969699011" />
+    <state width="1340" height="492" key="GridCell.Tab.0.right/0.23.1440.827@0.23.1440.827" timestamp="1593994004746" />
+    <state width="1340" height="180" key="GridCell.Tab.0.right/0.23.1440.828@0.23.1440.828" timestamp="1593994862628" />
+    <state width="1340" height="405" key="GridCell.Tab.0.right/0.23.1440.829@0.23.1440.829" timestamp="1593995753840" />
+    <state width="1340" height="405" key="GridCell.Tab.1.bottom" timestamp="1593995753841">
+      <screen x="0" y="23" width="1440" height="829" />
+    </state>
+    <state width="1340" height="405" key="GridCell.Tab.1.bottom/0.23.1440.827@0.23.1440.827" timestamp="1593990767601" />
+    <state width="1340" height="405" key="GridCell.Tab.1.bottom/0.23.1440.828@0.23.1440.828" timestamp="1593977760399" />
+    <state width="1340" height="405" key="GridCell.Tab.1.bottom/0.23.1440.829@0.23.1440.829" timestamp="1593995753841" />
+    <state width="1340" height="405" key="GridCell.Tab.1.center" timestamp="1593995753841">
+      <screen x="0" y="23" width="1440" height="829" />
+    </state>
+    <state width="1340" height="405" key="GridCell.Tab.1.center/0.23.1440.827@0.23.1440.827" timestamp="1593990767601" />
+    <state width="1340" height="405" key="GridCell.Tab.1.center/0.23.1440.828@0.23.1440.828" timestamp="1593977760399" />
+    <state width="1340" height="405" key="GridCell.Tab.1.center/0.23.1440.829@0.23.1440.829" timestamp="1593995753841" />
+    <state width="1340" height="405" key="GridCell.Tab.1.left" timestamp="1593995753840">
+      <screen x="0" y="23" width="1440" height="829" />
+    </state>
+    <state width="1340" height="405" key="GridCell.Tab.1.left/0.23.1440.827@0.23.1440.827" timestamp="1593990767601" />
+    <state width="1340" height="405" key="GridCell.Tab.1.left/0.23.1440.828@0.23.1440.828" timestamp="1593977760398" />
+    <state width="1340" height="405" key="GridCell.Tab.1.left/0.23.1440.829@0.23.1440.829" timestamp="1593995753840" />
+    <state width="1340" height="405" key="GridCell.Tab.1.right" timestamp="1593995753841">
+      <screen x="0" y="23" width="1440" height="829" />
+    </state>
+    <state width="1340" height="405" key="GridCell.Tab.1.right/0.23.1440.827@0.23.1440.827" timestamp="1593990767601" />
+    <state width="1340" height="405" key="GridCell.Tab.1.right/0.23.1440.828@0.23.1440.828" timestamp="1593977760399" />
+    <state width="1340" height="405" key="GridCell.Tab.1.right/0.23.1440.829@0.23.1440.829" timestamp="1593995753841" />
+    <state x="478" y="209" key="chooseDestDirectoryDialog" timestamp="1593992527783">
+      <screen x="0" y="23" width="1440" height="829" />
+    </state>
+    <state x="478" y="209" key="chooseDestDirectoryDialog/0.23.1440.827@0.23.1440.827" timestamp="1593976462536" />
+    <state x="478" y="209" key="chooseDestDirectoryDialog/0.23.1440.828@0.23.1440.828" timestamp="1593971438425" />
+    <state x="478" y="209" key="chooseDestDirectoryDialog/0.23.1440.829@0.23.1440.829" timestamp="1593992527783" />
+    <state x="419" y="273" key="com.intellij.ide.util.TipDialog" timestamp="1593897618527">
+      <screen x="0" y="23" width="1440" height="823" />
+    </state>
+    <state x="419" y="273" key="com.intellij.ide.util.TipDialog/0.23.1440.823@0.23.1440.823" timestamp="1593897618527" />
+    <state x="197" y="161" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1593990699128">
+      <screen x="0" y="23" width="1440" height="827" />
+    </state>
+    <state x="197" y="161" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.23.1440.827@0.23.1440.827" timestamp="1593990699128" />
+    <state x="343" y="175" width="695" height="486" key="find.popup" timestamp="1593992302852">
+      <screen x="0" y="23" width="1440" height="829" />
+    </state>
+    <state x="343" y="175" width="695" height="486" key="find.popup/0.23.1440.829@0.23.1440.829" timestamp="1593992302852" />
+    <state x="455" y="158" key="org.jetbrains.kotlin.idea.testIntegration.KotlinCreateTestDialog" timestamp="1593992527817">
+      <screen x="0" y="23" width="1440" height="829" />
+    </state>
+    <state x="455" y="158" key="org.jetbrains.kotlin.idea.testIntegration.KotlinCreateTestDialog/0.23.1440.827@0.23.1440.827" timestamp="1593976462573" />
+    <state x="455" y="158" key="org.jetbrains.kotlin.idea.testIntegration.KotlinCreateTestDialog/0.23.1440.828@0.23.1440.828" timestamp="1593971438463" />
+    <state x="455" y="158" key="org.jetbrains.kotlin.idea.testIntegration.KotlinCreateTestDialog/0.23.1440.829@0.23.1440.829" timestamp="1593992527817" />
+    <state x="388" y="77" key="psd.add.module.dependency.panel.dimension" timestamp="1593961026633">
+      <screen x="0" y="23" width="1440" height="829" />
+    </state>
+    <state x="388" y="77" key="psd.add.module.dependency.panel.dimension/0.23.1440.829@0.23.1440.829" timestamp="1593961026633" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/nm/pancardsdesafiomvp/ui/cardTypeList/CardTypeList.kt</url>
+          <line>26</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/nm/pancardsdesafiomvp/ui/cardTypeList/CardTypeList.kt</url>
+          <line>30</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
