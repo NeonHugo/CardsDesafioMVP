@@ -13,8 +13,8 @@ class CardSchemaToCardMapper : Mapper<CardSchema, Card>() {
             cardSet = item.cardSet,
             dbfId = item.dbfId,
             health = item.health,
-            img = item.img,
-            imgGold = item.imgGold,
+            img = item.img ?: "",
+            imgGold = item.imgGold ?: "",
             locale = item.locale,
             name = item.name,
             type = item.type

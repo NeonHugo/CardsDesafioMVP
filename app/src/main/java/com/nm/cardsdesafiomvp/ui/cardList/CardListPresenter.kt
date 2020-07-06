@@ -13,7 +13,7 @@ class CardListPresenter(
     private var compositeDisposable = CompositeDisposable()
 
     override fun getCardList(type: String, param: String) {
-        val disposeRes = cardListUseCase.getCardList(type, param)
+        compositeDisposable.add(cardListUseCase.getCardList(type, param)
             .subscribeOn(Schedulers.io())
             .observeOn(AndroidSchedulers.mainThread())
             .subscribe(
@@ -24,7 +24,7 @@ class CardListPresenter(
                     mView.loadError(it.message ?: "Deu Ruim")
                 }
             )
-        compositeDisposable.add(disposeRes)
+        )
     }
 
     override fun onDestroy() {

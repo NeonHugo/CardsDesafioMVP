@@ -1,7 +1,6 @@
 package com.nm.cardsdesafiomvp.ui.cardList
 
 import com.nm.domain.entity.Card
-import com.nm.domain.entity.CardTypes
 
 interface CardListContract {
 
