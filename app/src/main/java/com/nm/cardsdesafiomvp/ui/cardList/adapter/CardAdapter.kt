@@ -5,9 +5,12 @@ import android.graphics.Color
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.TextView
+import android.widget.ImageView
 import androidx.cardview.widget.CardView
 import androidx.recyclerview.widget.RecyclerView
+import com.bumptech.glide.Glide
+import com.bumptech.glide.RequestManager
+import com.bumptech.glide.load.engine.DiskCacheStrategy
 import com.nm.cardsdesafiomvp.R
 import com.nm.domain.entity.Card
 import java.util.*
@@ -19,6 +22,7 @@ class CardAdapter(
 ) : RecyclerView.Adapter<CardAdapter.CardViewHolder>() {
 
     private val inflater: LayoutInflater = LayoutInflater.from(context)
+    private val mGlide: RequestManager = Glide.with(context)
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): CardViewHolder {
         val view: View = inflater.inflate(R.layout.card_item, parent, false)
@@ -27,8 +31,12 @@ class CardAdapter(
 
     override fun onBindViewHolder(holder: CardViewHolder, position: Int) {
         val card = cards[position]
-        holder.tvChapterName.text = card.name
-        holder.cardView.setCardBackgroundColor(colorP())
+
+        mGlide.load(card.img)
+            .diskCacheStrategy(DiskCacheStrategy.ALL)
+            .placeholder(R.drawable.ic_launcher_foreground)
+            .centerCrop()
+            .into(holder.ivThumb)
     }
 
     override fun getItemCount(): Int {
@@ -45,8 +53,7 @@ class CardAdapter(
 
     inner class CardViewHolder(itemView: View) :
         RecyclerView.ViewHolder(itemView) {
-        var tvChapterName: TextView = itemView.findViewById(R.id.tvChapterName)
-        var cardView: CardView = itemView.findViewById(R.id.card_view)
+        var ivThumb: ImageView = itemView.findViewById(R.id.ivThumb)
 
         init {
             itemView.rootView.setOnClickListener {
