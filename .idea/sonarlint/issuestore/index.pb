@@ -99,16 +99,6 @@ Happ/src/main/java/com/nm/cardsdesafiomvp/ui/cardTypeList/CardTypeList.kt,a/7/a
 Qapp/src/main/java/com/nm/cardsdesafiomvp/ui/cardTypeList/CardTypeListPresenter.kt,a/0/a08fc37b55c7f9813a0e1840dc8790e4e0b0f2a7
 [
 +app/src/main/res/drawable/rounded_shape.xml,d/2/d2d569ac8dbd86145c22d164774f7d17bd38165e
-^
-.app/src/main/res/layout/activity_card_list.xml,0/d/0d85d03017f0f98775c2a773f7494b54bc1419d0
-Y
-)app/src/main/res/layout/activity_main.xml,7/6/76b07e40f24cce093536731477540f12e7da3cb6
-X
-(app/src/main/res/layout/content_main.xml,7/c/7c023c74a9bce7eb3587d0708a1c0350f6266748
-Z
-*app/src/main/res/layout/single_chapter.xml,4/a/4a0f621dc719ec36c36d452bdb50ca6447aa6772
-Z
-*app/src/main/res/layout/single_subject.xml,1/7/17e65c6bf4d6ee57f6127127f75856c060be952a
 o
 ?data/src/main/java/com/nm/data/mapper/CardSchemaToCardMapper.kt,f/1/f181c067ef87f27a6fe04c511e528aaaa9856b8f
 t
@@ -121,8 +111,6 @@ d
 4domain/src/main/java/com/nm/domain/entity/Section.kt,9/4/9462e43883c6c0c9ac54cf191a92f036370babcd
 {
 Kapp/src/main/java/com/nm/cardsdesafiomvp/ui/cardList/adapter/CardAdapter.kt,d/8/d8fe71d88b44d0ba9afe0acab38e55b2cc73b6f9
-Š
-Zapp/src/main/java/com/nm/cardsdesafiomvp/ui/cardList/adapter/AutoFitGridLayoutManager.java,7/e/7e44a5e89d349d6dc6696aafe57f93076e942f03
 ‹
 [app/src/main/java/com/nm/cardsdesafiomvp/ui/cardList/adapter/GridSpacingItemDecoration.java,f/c/fc29b61b55e9be73590d2c52097aec012391c794
 p

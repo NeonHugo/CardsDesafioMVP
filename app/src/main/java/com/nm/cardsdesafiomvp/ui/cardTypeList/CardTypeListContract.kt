@@ -6,7 +6,8 @@ interface CardTypeListContract {
 
     interface View {
         fun loadCardTypesList(cardTypes: CardTypes)
-        fun loadError(message: String)
+        fun loadStatus()
+        fun loadError()
     }
 
     interface Presenter {

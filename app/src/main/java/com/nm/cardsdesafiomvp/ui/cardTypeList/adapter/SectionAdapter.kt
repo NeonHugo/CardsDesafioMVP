@@ -23,7 +23,7 @@ class SectionAdapter(
         parent: ViewGroup,
         viewType: Int
     ): ViewHolder {
-        val view = layoutInflater.inflate(R.layout.single_subject, parent, false)
+        val view = layoutInflater.inflate(R.layout.single_section, parent, false)
         return ViewHolder(view)
     }
 
@@ -31,7 +31,7 @@ class SectionAdapter(
         holder: ViewHolder,
         position: Int
     ) {
-        holder.recyclerView.adapter = ChapterAdapter(context, sections[position].options, itemListener)
+        holder.recyclerView.adapter = OptionAdapter(context, sections[position].options, itemListener)
         holder.recyclerView.layoutManager = LinearLayoutManager(
             context,
             LinearLayoutManager.HORIZONTAL,
@@ -47,8 +47,8 @@ class SectionAdapter(
 
     inner class ViewHolder(itemView: View) :
         RecyclerView.ViewHolder(itemView) {
-        var recyclerView: RecyclerView = itemView.findViewById<View>(R.id.rvChapters) as RecyclerView
-        var tvHeading: TextView = itemView.findViewById<View>(R.id.tvSubjectName) as TextView
+        var recyclerView: RecyclerView = itemView.findViewById<View>(R.id.rvOptions) as RecyclerView
+        var tvHeading: TextView = itemView.findViewById<View>(R.id.tvSectionName) as TextView
     }
 
 }

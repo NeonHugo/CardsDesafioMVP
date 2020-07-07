@@ -13,6 +13,8 @@ class CardTypeListPresenter(
     private var compositeDisposable = CompositeDisposable()
 
     override fun getCardTypesList() {
+        mView.loadStatus()
+
         compositeDisposable.add(cardTypeListUseCase.getCardTypes()
             .subscribeOn(Schedulers.io())
             .observeOn(AndroidSchedulers.mainThread())
@@ -21,7 +23,7 @@ class CardTypeListPresenter(
                     mView.loadCardTypesList(it)
                 },
                 {
-                    mView.loadError(it.message ?: "Deu Ruim")
+                    mView.loadError()
                 }
             )
         )

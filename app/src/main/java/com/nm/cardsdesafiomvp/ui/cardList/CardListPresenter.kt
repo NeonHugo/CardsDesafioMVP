@@ -13,15 +13,20 @@ class CardListPresenter(
     private var compositeDisposable = CompositeDisposable()
 
     override fun getCardList(type: String, param: String) {
+        mView.loadStatus()
+
         compositeDisposable.add(cardListUseCase.getCardList(type, param)
             .subscribeOn(Schedulers.io())
             .observeOn(AndroidSchedulers.mainThread())
+            .doOnSubscribe {
+                mView.loadStatus()
+            }
             .subscribe(
                 {
                     mView.loadCardList(it)
                 },
                 {
-                    mView.loadError(it.message ?: "Deu Ruim")
+                    mView.loadError()
                 }
             )
         )

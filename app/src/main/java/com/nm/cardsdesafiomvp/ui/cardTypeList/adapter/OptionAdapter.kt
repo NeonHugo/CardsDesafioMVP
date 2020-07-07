@@ -5,16 +5,15 @@ import android.graphics.Color
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.LinearLayout
 import android.widget.TextView
 import androidx.cardview.widget.CardView
 import androidx.recyclerview.widget.RecyclerView
 import com.nm.cardsdesafiomvp.R
-import com.nm.cardsdesafiomvp.ui.cardTypeList.adapter.ChapterAdapter.CustomViewHolder
+import com.nm.cardsdesafiomvp.ui.cardTypeList.adapter.OptionAdapter.CustomViewHolder
 import com.nm.domain.entity.Option
 import java.util.*
 
-class ChapterAdapter(
+class OptionAdapter(
     private val context: Context,
     private val options: ArrayList<Option>,
     private val itemListener: (Option) -> Unit
@@ -23,13 +22,13 @@ class ChapterAdapter(
     private val inflater: LayoutInflater = LayoutInflater.from(context)
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): CustomViewHolder {
-        val view: View = inflater.inflate(R.layout.single_chapter, parent, false)
+        val view: View = inflater.inflate(R.layout.single_option, parent, false)
         return CustomViewHolder(view)
     }
 
     override fun onBindViewHolder(holder: CustomViewHolder, position: Int) {
         val (_, description) = options[position]
-        holder.tvChapterName.text = description
+        holder.tvOptionName.text = description
         holder.cardView.setCardBackgroundColor(colorP())
     }
 
@@ -47,7 +46,7 @@ class ChapterAdapter(
 
     inner class CustomViewHolder(itemView: View) :
         RecyclerView.ViewHolder(itemView) {
-        var tvChapterName: TextView = itemView.findViewById(R.id.tvChapterName)
+        var tvOptionName: TextView = itemView.findViewById(R.id.tvOptionName)
         var cardView: CardView = itemView.findViewById(R.id.card_view)
 
         init {
