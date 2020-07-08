@@ -119,8 +119,6 @@ V
 &app/src/main/res/drawable/ic_error.xml,6/3/6372a3b828d5c5296921c0757f7e290cb79d59e3
 ^
 .app/src/main/res/drawable/ic_navigate_back.xml,e/c/ec99cf221ff135aa2a21852761c75fdbc4608d7b
-^
-.app/src/main/res/layout/activity_card_type.xml,8/9/89be60fdf8578ca6cab8ffc30d478a424ea151cf
 U
 %app/src/main/res/layout/card_item.xml,6/f/6f6c601ab026cd6ca6dd0120906fd654a17ebe51
 Å
