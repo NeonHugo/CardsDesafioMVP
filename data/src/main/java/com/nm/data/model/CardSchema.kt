@@ -9,5 +9,5 @@ data class CardSchema(
     val imgGold: String?,
     val locale: String,
     val name: String,
-    val type: String
+    val type: String?
 )

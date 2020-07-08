@@ -65,7 +65,7 @@ class CardListPresenterTest {
 
         cardListPresenter.getCardList("races", "Dragon")
 
-        Mockito.verify(mView).loadError("Deu Ruim")
+        Mockito.verify(mView).loadError()
     }
 
     @After

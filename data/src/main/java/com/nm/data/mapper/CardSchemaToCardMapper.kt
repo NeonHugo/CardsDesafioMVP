@@ -17,7 +17,7 @@ class CardSchemaToCardMapper : Mapper<CardSchema, Card>() {
             imgGold = item.imgGold ?: "",
             locale = item.locale,
             name = item.name,
-            type = item.type
+            type = item.type ?: ""
         )
     }
 }

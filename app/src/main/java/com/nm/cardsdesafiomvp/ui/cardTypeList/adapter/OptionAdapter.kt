@@ -10,6 +10,7 @@ import androidx.cardview.widget.CardView
 import androidx.recyclerview.widget.RecyclerView
 import com.nm.cardsdesafiomvp.R
 import com.nm.cardsdesafiomvp.ui.cardTypeList.adapter.OptionAdapter.CustomViewHolder
+import com.nm.commons.tools.colorP
 import com.nm.domain.entity.Option
 import java.util.*
 
@@ -34,14 +35,6 @@ class OptionAdapter(
 
     override fun getItemCount(): Int {
         return options.size
-    }
-
-    private fun colorP(): Int {
-        val rnd = Random()
-        return Color.argb(
-            255, rnd.nextInt(255), rnd.nextInt(255),
-            rnd.nextInt(255)
-        )
     }
 
     inner class CustomViewHolder(itemView: View) :

@@ -68,7 +68,7 @@ class CardTypeListPresenterTest {
 
         cardTypeListPresenter.getCardTypesList()
 
-        verify(mView).loadError("Deu Ruim")
+        verify(mView).loadError()
     }
 
     @After
