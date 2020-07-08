@@ -16,4 +16,26 @@
 
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 
+
+    <style name="AppTheme.DialogTitle.Title_H1" parent="android:Widget.DeviceDefault.TextView">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/title_h1_size</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <style name="AppTheme.DialogTitle.Title_H2" parent="android:Widget.DeviceDefault.TextView">
+        <item name="android:textSize">@dimen/title_h2_size</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <style name="AppTheme.DialogTitle.Title_H3" parent="android:Widget.DeviceDefault.TextView">
+        <item name="android:textSize">@dimen/title_h3_size</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <style name="AppTheme.DialogTitle.Item_H1" parent="android:Widget.DeviceDefault.TextView">
+        <item name="android:textSize">@dimen/item_h1_size</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
 </resources>

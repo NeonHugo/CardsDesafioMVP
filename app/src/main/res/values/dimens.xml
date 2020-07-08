@@ -1,3 +1,8 @@
 <resources>
     <dimen name="fab_margin">16dp</dimen>
+
+    <dimen name="title_h1_size">35sp</dimen>
+    <dimen name="title_h2_size">25sp</dimen>
+    <dimen name="title_h3_size">18sp</dimen>
+    <dimen name="item_h1_size">16sp</dimen>
 </resources>

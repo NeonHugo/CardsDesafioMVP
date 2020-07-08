@@ -18,18 +18,17 @@
 
     <TextView
         android:id="@+id/tvHeader"
+        style="@style/AppTheme.DialogTitle.Title_H2"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginTop="32dp"
         android:layout_marginEnd="16dp"
         android:gravity="end"
-        android:text="Cards"
-        android:textColor="@android:color/black"
-        android:textSize="25dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/ivBack"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Cards" />
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rvCards"
@@ -52,8 +51,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
         android:id="@+id/ivError"
