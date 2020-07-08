@@ -13,11 +13,12 @@ class CardTypeListPresenter(
     private var compositeDisposable = CompositeDisposable()
 
     override fun getCardTypesList() {
-        mView.loadStatus()
-
         compositeDisposable.add(cardTypeListUseCase.getCardTypes()
             .subscribeOn(Schedulers.io())
             .observeOn(AndroidSchedulers.mainThread())
+            .doOnSubscribe {
+                mView.loadStatus()
+            }
             .subscribe(
                 {
                     mView.loadCardTypesList(it)
