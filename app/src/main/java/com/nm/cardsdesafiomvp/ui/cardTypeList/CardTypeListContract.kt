@@ -1,5 +1,6 @@
 package com.nm.cardsdesafiomvp.ui.cardTypeList
 
+import com.nm.commons.base.IPresenter
 import com.nm.domain.entity.CardTypes
 
 interface CardTypeListContract {
@@ -10,8 +11,7 @@ interface CardTypeListContract {
         fun loadError()
     }
 
-    interface Presenter {
+    interface Presenter : IPresenter {
         fun getCardTypesList()
-        fun onDestroy()
     }
 }

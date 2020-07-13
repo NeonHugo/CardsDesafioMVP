@@ -1,8 +1,4 @@
 
-c
-3commons/src/main/java/com/nm/commons/net/Results.kt,2/3/2379b7b0c9747fb5ea340c0963d94eb8a160a0ae
-d
-4commons/src/main/java/com/nm/commons/net/ApiError.kt,a/e/ae12f7af0c1781cd2b61fb6fb126acf6ea8f6d7d
 f
 6domain/src/main/java/com/nm/domain/entity/CardTypes.kt,b/9/b9ea9862ee6a363ac224145530b0b0294805ccd1
 w
@@ -27,14 +23,8 @@ j
 :commons/src/main/java/com/nm/commons/net/data/ApiClient.kt,8/7/874eba8db160c17e1c7a05f2afffe263bb27d6cf
 g
 7commons/src/main/java/com/nm/commons/net/data/Mapper.kt,e/2/e25d342e5b2eae777bd8a41bb71042fa28f5e55f
-j
-:commons/src/main/java/com/nm/commons/net/data/ApiStatus.kt,5/0/50105582e21e636b8bc04f8dcfbe171ade12e174
-i
-9commons/src/main/java/com/nm/commons/net/data/ApiTools.kt,2/1/21bdd9ab7e0ffb5b58ddc7952ab66f9ac82771c8
 <
 build.gradle,f/0/f07866736216be0ee2aba49e392191aeae700a35
-l
-<commons/src/main/java/com/nm/commons/base/BasePresenter.java,4/8/487cdaeded4dc1b433926bc4fc78c2f05f574fc3
 @
 app/build.gradle,f/4/f4a01d6a4fcb971362ec00a83903fd3902f52164
 D
@@ -125,3 +115,15 @@ U
 Qapp/src/main/java/com/nm/cardsdesafiomvp/ui/cardTypeList/adapter/OptionAdapter.kt,6/6/661a658ae8962a8a978b8af8a359533f4bb4bd87
 i
 9commons/src/main/java/com/nm/commons/base/BaseActivity.kt,6/4/6470342eb835f6ebccf0fed31fbf33a3aff47072
+]
+-app/src/main/res/layout/content_card_list.xml,7/0/702be177d8868c1d513f8b350e5a4c35fd416b4a
+Y
+)app/src/main/res/layout/single_option.xml,5/0/50297527f4472c4326c24ebc916cfd426497fba2
+R
+"app/src/main/res/values/dimens.xml,c/3/c3c1811dec2dbad2deeafb9aad505ca9631da740
+e
+5commons/src/main/java/com/nm/commons/tools/ToolBox.kt,2/a/2abf61366177fc34892a2192caf336c60af8f93a
+]
+-app/src/main/res/layout/content_card_type.xml,6/b/6b532932ba39638fe606593fc3fdac01c97c8b40
+n
+>commons/src/main/java/com/nm/commons/rx/RxSubscriberManager.kt,c/2/c2d7759e61058579bef2a4287726160636395c3b
